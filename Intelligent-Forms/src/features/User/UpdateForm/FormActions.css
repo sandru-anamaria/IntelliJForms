@@ -1,0 +1,126 @@
+.Card1 {
+  border: 1px solid #aabee6;
+  background-color: #c0cfee;
+  border-radius: 15px;
+  margin-left: 570px;
+  margin-right: 570px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+}
+
+.Nav-Bar {
+  padding: 20px;
+  margin: 0 auto;
+  padding-right: 100px;
+  background-color: #d1def5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #473f65;
+  font-weight: 700;
+  flex-flow: row wrap;
+  display: flex;
+  gap: 2rem;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  width: 123%;
+  height: 5px;
+  margin-top: 280px;
+}
+
+.Delimitation {
+  background-color: #473f65;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.PozaPDF {
+  background-color: #d1def5;
+  display: flex;
+  width: 100%;
+  height: 370px;
+}
+
+.EditButton {
+  color: black;
+  border-radius: 15px;
+  font-size: 16px;
+  height: 50px;
+  width: 170px;
+  display: inline-block;
+  margin-right: 130px;
+  margin-top: 40px;
+  align-items: center;
+  margin-left: 410px;
+
+  background-color: #b0c2e8;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 6px;
+  border: groove;
+}
+
+.EditButton:hover {
+  outline: 0.5px solid rgb(99, 187, 222);
+  box-shadow: 2px 2px 9px -1px rgb(99, 187, 222);
+  opacity: 0.8;
+}
+
+.DeleteButton {
+  color: black;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  height: 50px;
+  width: 170px;
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: -1.5%;
+  background-color: #b0c2e8;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 6px;
+  border: groove;
+}
+
+.DeleteButton:hover {
+  outline: 0.5px solid #f24040;
+  box-shadow: 2px 2px 9px -1px #ba0e0e;
+  opacity: 0.8;
+}
+
+.ViewButton {
+  color: black;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  height: 50px;
+  width: 170px;
+  display: inline-block;
+  margin-right: 130px;
+  background-color: #b0c2e8;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 6px;
+  border: groove;
+}
+
+.ViewButton:hover {
+  outline: 0.5px solid rgb(99, 187, 222);
+  box-shadow: 2px 2px 9px -1px rgb(99, 187, 222);
+  opacity: 0.8;
+}

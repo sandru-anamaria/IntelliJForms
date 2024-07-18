@@ -1,0 +1,267 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d1def5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Nav-Bar {
+  padding: 5px;
+  margin: 0 auto;
+  padding-right: 100px;
+  background-color: #d1def5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #473f65;
+  font-weight: 700;
+  flex-flow: row wrap;
+  display: flex;
+  gap: 2rem;
+}
+
+.LoginPhoto {
+  background-color: #d1def5;
+  padding-top: 40px;
+  padding-right: 80px;
+  float: right;
+}
+
+.Poza img {
+  max-width: 160%;
+  max-height: 160%;
+  float: right;
+  margin-right: 50px;
+}
+
+.PozaLogin img {
+  max-width: 57%;
+  max-height: 57%;
+  float: right;
+  margin-right: 160px;
+}
+
+.LoginPage {
+  display: flex;
+  text-align: left;
+  flex-basis: auto;
+  margin-right: auto;
+}
+
+.Split {
+  display: flex;
+  height: 100vh;
+}
+
+.LeftColumn {
+  flex: 1;
+  background-color: #f0f0f0;
+}
+
+.RightColumn {
+  flex: 1;
+  background-color: #dcdcdc;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Left-side {
+  margin: 4rem 4rem;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Input {
+  display: block;
+  border: none;
+  height: 2rem;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 0.2rem;
+  border-radius: 14px;
+  margin: 10px;
+  background-color: #b0c2e8;
+  font-size: 14px;
+  padding: 17px;
+  margin-left: 0.5rem;
+  outline: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.LoginButton {
+  margin-bottom: 35px;
+  margin-top: 10px;
+  margin-left: 0.2em;
+  margin-right: 150px;
+  background-color: #d1def5;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+  font-size: 19px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.LoginButton:hover {
+  outline: 0.1px rgb(99, 187, 222);
+  box-shadow: 15px rgb(99, 187, 222);
+  opacity: 0.6;
+  border: none;
+}
+
+.RegisterButton {
+  margin-right: 20px;
+  background-color: #d1def5;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+  font-size: 19px;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.RegisterButton:hover {
+  outline: 0.1px rgb(99, 187, 222);
+  box-shadow: 15px rgb(99, 187, 222);
+  opacity: 0.6;
+  border: none;
+}
+
+.ErrorStyle {
+  margin-bottom: 15px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  color: red;
+}
+
+.Label {
+  display: block;
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  font-size: small;
+  color: black;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  margin-top: 1.5rem;
+  margin-left: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.SubmitButton {
+  margin-top: 20px;
+  margin-left: 34%;
+  background-color: #d1def5;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 8px;
+  width: 21%;
+  border-radius: 14px;
+  font-size: 16px;
+  border: none;
+  align-items: center;
+  outline: 0.5px solid rgb(99, 187, 222);
+  box-shadow: 2px 2px 9px -1px rgb(99, 187, 222);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.SubmitButton:hover {
+  outline: 0.5px solid rgb(99, 187, 222);
+  box-shadow: 2px 2px 9px -1px rgb(99, 187, 222);
+  opacity: 0.8;
+}
+
+.Right-side {
+  margin: 4rem 4rem;
+  height: 90%;
+  width: 100%;
+}
+
+.Button {
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.Text {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  font-size: 17px;
+  padding-bottom: 400px;
+}
+
+.Inf1 {
+  position: relative;
+  top: 25px;
+  font-size: large;
+}
+
+.Home {
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+  font-size: large;
+}
+
+.Login_Register {
+  position: relative;
+  top: 15px;
+}
+
+.Inf2 {
+  position: relative;
+  top: -10px;
+  left: 15px;
+  text-decoration: none;
+}
+
+.Delimitation {
+  background-color: #473f65;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formClass {
+  margin-left: 50px;
+  display: block !important;
+}
+.Contact-Us {
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+}
+
+.ErrorStyle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}

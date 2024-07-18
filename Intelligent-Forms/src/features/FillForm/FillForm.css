@@ -1,0 +1,65 @@
+.All1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Logo1 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #473f65;
+  gap: 0.2rem;
+  padding-left: 2vw;
+}
+
+.FormContainer1 {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Delimitation2 {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: #473f65;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 768px) {
+  .All1 {
+    display: block;
+  }
+  .Logo1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .FormContainer1 {
+    padding-top: 200px;
+    display: block;
+    justify-content: auto;
+    text-align: auto;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+}

@@ -1,0 +1,85 @@
+.ButtonEdit{
+    margin-top: 10px;
+    margin-left: 100px;
+    
+    background-color: #B0C2E8;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 6px;
+    width: 13%;
+    border-radius: 7px;
+    border: groove;
+}
+
+.ButtonEdit:hover{
+  outline: 0.5px solid rgb(99, 187, 222);
+  box-shadow: 2px 2px 9px -1px rgb(99, 187, 222);
+  opacity: 0.8;
+}
+.ButtonSave {
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: #B0C2E8;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 6px;
+    width: 13%;
+    border-radius: 7px;
+    border: groove;
+}
+.ButtonCancel {
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #B0C2E8;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 6px;
+    width: 13%;
+    border-radius: 7px;
+    border: groove;
+}
+
+  .Field{
+    display: block;
+    border: none;
+    height: 1.7rem;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: #B0C2E8;
+  }
+  .Focus{
+    outline: none;
+    border: none;
+  }
+
+  .Label{
+    display: block;
+    text-align: left;
+    width: 70%;
+    margin:auto;
+    font-size: small;
+    color: #B0C2E8;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+  }
+
+  .Mpf{
+    margin-right: 50px;
+  }
+
+  .Margin{
+    margin-left: 10%;
+    
+
+  }
+  .Top{
+    margin-top: 5px;
+  }
+
+  .Padding{
+    padding-top: 50px;
+  }

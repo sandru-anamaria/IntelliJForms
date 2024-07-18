@@ -1,0 +1,177 @@
+.Card {
+  border: 1px solid #aabee6;
+  background-color: #c0cfee;
+  border-radius: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 2rem;
+  margin-top: 30px;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+  overflow-x: auto;
+}
+
+.ActionsButton {
+  background-color: #b0c2e8;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 6px;
+  border-radius: 10px;
+  border: groove;
+  font-size: 15px;
+}
+.ActionsButton:hover {
+  outline: 0.5px solid rgb(99, 187, 222);
+  opacity: 0.8;
+}
+
+.Nav-Bar {
+  padding: 20px;
+  margin: 0 auto;
+  padding-right: 100px;
+  background-color: #d1def5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: revert;
+  color: #473f65;
+  font-weight: 700;
+  flex-flow: row wrap;
+  display: flex;
+  gap: 2rem;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  width: 123%;
+  height: 5px;
+  margin-top: 280px;
+}
+
+.Label1 {
+  text-align: right;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+.Icon {
+  float: "right";
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  padding: auto;
+  flex: content;
+}
+
+.Link {
+  color: skyblue;
+  padding-left: 17%;
+  margin-top: -24px;
+  font-size: large;
+}
+
+.QR {
+  color: black;
+  padding-left: 120%;
+  margin-top: -23px;
+  font-size: larger;
+}
+
+.Linie {
+  border: none;
+  width: 123%;
+  height: 1px;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.Linie1 {
+  border: none;
+  margin-left: 90px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 90px;
+  background-color: #473f65;
+}
+
+.container {
+  height: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: normal;
+}
+
+.Text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #473f65;
+  font-size: xx-small;
+  margin-left: 6%;
+}
+
+.buttonBack {
+  margin-left: 200px;
+  display: flex;
+  justify-content: left;
+  height: -30px;
+  align-items: normal;
+}
+
+.Delimitation {
+  background-color: #473f65;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.iconDetails {
+  cursor: pointer;
+}
+.deleteIcon {
+  cursor: pointer;
+}
+
+.tableDetails {
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.icon {
+  position: relative;
+  display: inline-block;
+}
+
+.Tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.material-ui-icon {
+  color: #2196f3;
+  font-size: 24px;
+}
+.Details {
+  -webkit-text-stroke-width: thin;
+}

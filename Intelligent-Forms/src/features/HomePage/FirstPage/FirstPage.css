@@ -1,0 +1,173 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d1def5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Nav-Bar {
+  padding: 5px;
+  margin: 0 auto;
+  padding-right: 100px;
+  background-color: #d1def5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #473f65;
+  font-weight: 700;
+  flex-flow: row wrap;
+  display: flex;
+  gap: 2rem;
+}
+
+.Poza {
+  background-color: #d1def5;
+  padding-top: 40px;
+  padding-right: 80px;
+  float: right;
+  width: 58%;
+}
+
+.Welcome {
+  padding-top: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding-left: 1.5em !important;
+  padding-top: 5em !important;
+  color: #473f65;
+}
+
+.PozaHome img {
+  max-width: 45%;
+  max-height: 45%;
+  float: right;
+  margin-right: 105px;
+  margin-top: 2rem;
+}
+
+.Form {
+  display: flex;
+  text-align: left;
+  flex-basis: auto;
+  margin-right: auto;
+  margin-left: 4em;
+}
+
+.LogoPoza {
+  margin-top: -2.5rem;
+  margin-bottom: 0em;
+  padding-top: 1em;
+}
+
+.textInt {
+  margin-left: 4.5em;
+  margin-top: -2.6em;
+}
+
+.ProfileIcon {
+  margin-top: 0.7em;
+}
+
+.Semnatura {
+  text-align: center;
+  padding-top: 20px;
+  color: #473f65;
+}
+
+.Text {
+  padding-left: 0.2em !important;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 200px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #473f65 !important;
+  font-weight: 200%;
+}
+.Inf1 {
+  position: relative;
+  top: 25px;
+  font-size: large;
+}
+
+.Home {
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+  font-size: large;
+}
+
+.Login_Register {
+  position: relative;
+  top: 15px;
+  margin-right: 0.1em;
+}
+
+.Delimitation {
+  background-color: #473f65;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 90%;
+  right: -50%;
+  background-color: #d1def5;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 13px;
+  z-index: 1;
+}
+
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -0.7rem;
+  right: 1.5rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: #d1def5;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu .Inf2 {
+  display: block;
+  padding: 8px 4px;
+  color: #473f65;
+  left: -0.1em;
+  top: -0.1em;
+  text-decoration: none;
+  font-size: medium;
+}
+.dropdown-menu .Inf3 {
+  display: flex;
+  padding: 8px 4px;
+  color: #473f65;
+  left: 1rem;
+  top: 2rem;
+  text-decoration: none;
+  font-size: medium;
+  width: 70px;
+}
+
+.ProfileIcon:hover {
+  cursor: pointer;
+}
+.Contact-Us {
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+  font-size: large;
+}
